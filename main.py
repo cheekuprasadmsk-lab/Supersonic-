@@ -2162,7 +2162,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 └─ 👑 Admin: @NEOBLADE701
 
 💰 FOR FULL ACCESS:
-Contact: @ransomware_joker
+Contact: @megahubsupport
 
 📡 STATUS: ✅ ONLINE | ⚡ READY FOR FLASH ATTACK
 """
@@ -2236,7 +2236,7 @@ async def mytrial(update: Update, context: ContextTypes.DEFAULT_TYPE):
 ├─ 🔒 Trial access is PERMANENTLY BLOCKED
 ├─ ⚠️ One-time trial already used
 ├─ 💰 Contact admin for paid access
-└─ 👑 Admin: @NEOBLADE701
+└─ 👑 Admin: @megahubsupport
 """
     
     await update.message.reply_text(trial_status_text)
@@ -2284,7 +2284,7 @@ Reason: {reason}
 ├─ Only paid access now
 
 💰 Contact Admin for Full Access:
-👑 @NEOBLADE701
+👑 @megahubsupport
 """
         )
         return
@@ -2313,7 +2313,7 @@ Example: /trial 9876543210
 ├─ ❌ After use: PERMANENTLY BLOCKED
 ├─ 🔒 No further trial access
 ├─ 💰 Contact admin for paid access
-└─ 👑 Admin: @ransomware_joker
+└─ 👑 Admin: @megahubsupport
 """
         )
         return
@@ -2338,7 +2338,7 @@ Example: /trial 9876543210
 
 APIs are not configured yet.
 
-Contact admin for support: @ransomware_joker
+Contact admin for support: @megahubsupport
 """
         )
         return
@@ -2458,7 +2458,7 @@ Use your free trial first:
 ├─ Trial: 60 seconds, ONE TIME ONLY
 ├─ After trial: PERMANENTLY BLOCKED
 ├─ Then contact admin for paid access
-└─ Admin: @NEOBLADE701
+└─ Admin: @megahubsupport
 """
             )
         else:
@@ -2477,7 +2477,7 @@ You have used your ONE-TIME trial.
 ├─ Paid User: ❌ No
 
 💰 Contact Admin for Full Access:
-👑 @NEOBLADE701
+👑 @megahubsupport
 
 ⚠️ Trial access is PERMANENTLY BLOCKED.
 Only paid access available now.
@@ -2561,7 +2561,7 @@ Limits:
 
 APIs are not configured yet.
 
-Contact admin for support: @NEOBLADE701
+Contact admin for support: @megahubsupport
 """
         )
         return
@@ -2605,7 +2605,7 @@ Contact admin for support: @NEOBLADE701
 ├─ Account Type: ✅ PAID USER
 ├─ Trial Status: ❌ BLOCKED (One-time used)
 ├─ Access: Unlimited attacks
-└─ Admin: @NEOBLADE701
+└─ Admin: @megahubsupport
 
 ⚡ FLASH CONFIGURATION:
 ├─ Speed: FLASH MODE (Level 5)
@@ -2886,7 +2886,7 @@ async def update_flash_final_status(context: ContextTypes.DEFAULT_TYPE, chat_id:
 ├─ 🔒 Trial access is NOW BLOCKED
 ├─ ⚠️ You cannot use trial again
 ├─ 💰 Contact admin for paid access
-└─ 👑 @NEOBLADE701
+└─ 👑 @megahubsupport
 """
         else:
             final_message += f"""
@@ -2973,7 +2973,7 @@ async def stop_attack(update: Update, context: ContextTypes.DEFAULT_TYPE):
 ├─ 🔒 Trial access is PERMANENTLY BLOCKED
 ├─ ⚠️ Cannot use trial again
 ├─ 💰 Contact admin for paid access
-└─ 👑 @NEOBLADE701
+└─ 👑 @megahubsupport
 """
     else:
         stop_message += f"""
@@ -3038,7 +3038,7 @@ Speed control is available for PAID USERS only.
 Speed is fixed at Level 5 (FLASH MODE) for trial.
 
 💰 Contact Admin for Full Access:
-@NEOBLADE701
+@megahubsupport
 """
         )
         return
@@ -3521,7 +3521,7 @@ async def stats(update: Update, context: ContextTypes.DEFAULT_TYPE):
 ├─ 🔒 Trial PERMANENTLY blocked
 ├─ ⚠️ One-time trial already used
 ├─ 💰 Contact admin for paid access
-└─ 👑 Admin: @NEOBLADE701
+└─ 👑 Admin: @megahubsupport
 """
     
     await update.message.reply_text(stats_text)
@@ -3563,7 +3563,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 ├─ ❌ After trial: PERMANENTLY BLOCKED
 ├─ 🔒 No further trial access
 ├─ 💰 Only paid access after trial
-└─ 👑 Admin: @ransomware_joker
+└─ 👑 Admin: @megahubsupport
 """
     
     if is_admin(user_id):
